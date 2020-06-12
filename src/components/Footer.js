@@ -8,24 +8,24 @@ const Footer = () => {
         <div className="footer-wrap">
             <div className="footer-main">
                 <div className="fut foot-about">
-                    <Link className="text-white">About</Link>
-                    <Link className="text-white small">Our Mission</Link>
-                    <Link className="text-white small">Our Vision</Link>
-                    <Link className="text-white small">Meet the Team</Link>
-                    <Link className="text-white small">Partners</Link>
+                    <Link to="" className="text-white">About</Link>
+                    <Link to="" className="text-white small">Our Mission</Link>
+                    <Link to="" className="text-white small">Our Vision</Link>
+                    <Link to="" className="text-white small">Meet the Team</Link>
+                    <Link to="" className="text-white small">Partners</Link>
                 </div>
                 <div className="fut foot-content">
-                    <Link className="text-white ">Content</Link>
-                    <Link className="text-white small">Blog</Link>
-                    <Link className="text-white small">Privacy Policy</Link>
-                    <Link className="text-white small">Help</Link>
-                    <Link className="text-white small">Contact Us</Link>
+                    <Link to="" className="text-white ">Content</Link>
+                    <Link to="" className="text-white small">Blog</Link>
+                    <Link to="" className="text-white small">Privacy Policy</Link>
+                    <Link to="" className="text-white small">Help</Link>
+                    <Link to="" className="text-white small">Contact Us</Link>
                 </div>
                 <div className="fut foot-follow">
-                    <Link className="text-white">Follow</Link>
-                    <Link className="text-white small">Facebook</Link>
-                    <Link className="text-white small">Twitter</Link>
-                    <Link className="text-white small">Instagram</Link>
+                    <Link to="" className="text-white">Follow</Link>
+                    <Link to="" className="text-white small">Facebook</Link>
+                    <Link to="" className="text-white small">Twitter</Link>
+                    <Link to="" className="text-white small">Instagram</Link>
                 </div>
                 <div className="foot-sub">
                     <span className="sub-txt text-white">Subscribe To Our Newsletter</span>

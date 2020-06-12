@@ -53,13 +53,13 @@ function Welcome() {
                 </form>             */}
             </div>
             <div className="py-3 class-sel-wrap">
-                <Link className="mx-3 class-sel activate" to="/guest/general">General</Link>
-                <Link className="mx-3 class-sel" to="/guest/jss-one">Jss One</Link>
+                <Link className="mx-3 class-sel activate" to="/">Jss One</Link>
                 <Link className="mx-3 class-sel" to="/guest/jss-two">Jss Two</Link>
                 <Link className="mx-3 class-sel" to="/guest/jss-three">Jss Three</Link>
                 <Link className="mx-3 class-sel" to="/guest/sss-one">Sss One</Link>
                 <Link className="mx-3 class-sel" to="/guest/sss-two">Sss Two</Link>
                 <Link className="mx-3 class-sel" to="/guest/sss-three">Sss Three</Link>
+                <Link className="mx-3 class-sel" to="/guest/general">General</Link>
             </div>
             <div className="subj-wrap">
             <div className="subjects-wrap">
