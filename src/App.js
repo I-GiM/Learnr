@@ -4,7 +4,6 @@ import NavBar from './components/Header';
 import './styles/bootstrap.css';
 import Welcome from './pages/Welcome';
 import Signup from './pages/Signup';
-import WelcomeGeneral from './pages/WelcomeGeneral';
 import Mathematics from './pages/subjects/Mathematics';
 import English from './pages/subjects/English';
 import BasicScience from './pages/subjects/BasicScience';
