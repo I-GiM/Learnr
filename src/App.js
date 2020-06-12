@@ -20,7 +20,6 @@ function App() {
       <NavBar />
       <Route exact path='/' component={Welcome} />
       <Route path='/signup' component={Signup} />
-      <Route path='/welcome/general' component={WelcomeGeneral} />
       <Route path='/guest/mathematics' component={Mathematics} />
       <Route path='/guest/english' component={English} />
       <Route path='/guest/basic-science' component={BasicScience} />
