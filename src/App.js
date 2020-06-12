@@ -4,6 +4,7 @@ import NavBar from './components/Header';
 import './styles/bootstrap.css';
 import Welcome from './pages/Welcome';
 import Signup from './pages/Signup';
+import Signin from './pages/Signin';
 import Mathematics from './pages/subjects/Mathematics';
 import English from './pages/subjects/English';
 import BasicScience from './pages/subjects/BasicScience';
@@ -19,6 +20,7 @@ function App() {
       <NavBar />
       <Route exact path='/' component={Welcome} />
       <Route path='/signup' component={Signup} />
+      <Route path='/signin' component={Signin} />
       <Route path='/guest/mathematics' component={Mathematics} />
       <Route path='/guest/english' component={English} />
       <Route path='/guest/basic-science' component={BasicScience} />

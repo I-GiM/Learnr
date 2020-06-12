@@ -12,10 +12,10 @@ function NavBar() {
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="nav-links">
                     <Nav.Link className="mr-3"  href="/">Home</Nav.Link>
-                    <Nav.Link className="mr-3"  href="">Subject</Nav.Link>
-                    <Nav.Link className="mr-3"  href="">Dashboard</Nav.Link>
-                    <Nav.Link className="sign text-primary border border-primary rounded px-3 mr-3" href="">Sign In</Nav.Link>
-                    <Nav.Link className="sign text-white rounded bg-primary px-3"  href="signup">Sign Up</Nav.Link>
+                    <Nav.Link className="mr-3"  href="/about">About</Nav.Link>
+                    <Nav.Link className="mr-3"  href="/contact">Contact Us</Nav.Link>
+                    <Nav.Link className="sign text-primary border border-primary rounded px-3 mr-3" href="/signin">Sign In</Nav.Link>
+                    <Nav.Link className="sign text-white rounded bg-primary px-3"  href="/signup">Sign Up</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
